@@ -1,0 +1,5 @@
+example.json
+pyproject.toml
+dist/*
+*.sdb
+*.pyc
