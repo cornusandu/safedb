@@ -67,8 +67,6 @@ db.add_content('users', user)
 
 db.commit()
 
-print(db.in_exchange)
-
 print(db.get_data_from_index('users', db.get_index_from_index('users', 'email', 'example@gmail.com')).username)
 
 db.save()   # Save the database to disk
