@@ -1,8 +1,6 @@
 # SafeDB
 ## What is SafeDB?
 SafeDB is a simple and secure database framework for Python. Its purpose is to provide a simple yet fast way to store data while also allowing for more flexibility than SQL.
-## Wouldn't it be slower than SQL?
-No, because even though SafeDB is written in Python, it uses different caching algorithms to store data on disk and also in RAM and also uses multiple indexing methods for different columns.
 ## How is it more flexible than SQL?
 Well, unlike SQL, SafeDB uses lists and dictionaries to store data. This means you can store any type of data (including custom objects).
 ## Can I use threading and multiprocessing?
